@@ -1,0 +1,23 @@
+Discussion
+Selection sort
+Selection sort is not stable. It has O(n^2) complexity. Selection sort has the longest time to sort all files.
+Quick sort
+Quick sort is not stable, sometimes faster and sometimes slower. It runs O(n^2) at worst case. And O(n log n) at best 
+and average case. 
+Merge sort
+Merge sort has O(n log n) for worst, best and average case. It is a stable sorting method.
+For 10 words, Selection takes 317946529 nanoseconds / 0.00317946529 seconds to sort. Quick takes 0.00397 seconds,
+merge takes 0.004 seconds
+For 100 words, Selection takes 0.008585416 seconds to sort. Quick takes 0.015837276 seconds, merge takes 
+7.93555E-4 seconds
+For 1000 words, Selection takes 0.417 seconds to sort. Quick takes 0.0397 seconds,
+merge takes 0.0039 seconds
+For 10000 words, Selection takes 2.245 minutes to sort. Quick takes 1.897 minutes, merge takes 1.561 minutes
+For 100000 words, Selection takes about 2.234 minutes to sort. Quick takes 2.146 minutes, merge takes 1.854 minutes
+For 1000000 words, Selection takes about 5.4658 minutes to sort. Quick takes 4.574 minutes, merge takes 4.324 minutes
+In 1000 words, Merge Sort sort the most words per seconds compare to other sorting methods. 
+Selection sort takes the longest times to sort. 
+It is difficult to accurately time very short activities on a computer, because the operating system often does other things
+to the detriment of your performance analysis. Over long periods of time, these other activities get averaged out, but short
+programs that happen to run when OS activity spikes do not get the benefit of that implicit filter. Sorting inputs multiple times will reduce the noise in this processes by allowing you to measure an average over many runs.
+For 10000000 words, Selection takes about 1 hours to sort. Quick takes 58 minutes, merge takes 55 minutes
